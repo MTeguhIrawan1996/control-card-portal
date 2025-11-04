@@ -21,7 +21,7 @@ import { Switch } from '@/components/ui/switch';
 import { ProfileSetting } from '@/features/settings/section/profile-setting';
 import { SecuritySetting } from '@/features/settings/section/security-setting';
 
-import { getUser } from '@/services/server/getUser';
+import { getUser } from '@/services/server/get-user';
 
 const SettingsPage = async () => {
   const data = await getUser();

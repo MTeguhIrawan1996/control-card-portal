@@ -15,7 +15,7 @@ import {
   SidebarMenuItem,
 } from '@/components/ui/sidebar';
 
-import { getUser } from '@/services/server/getUser';
+import { getUser } from '@/services/server/get-user';
 
 export async function AppSidebar({
   ...props

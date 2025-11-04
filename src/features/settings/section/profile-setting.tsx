@@ -30,7 +30,7 @@ import { AvatarButton } from '@/features/settings/elements/avatar-button';
 import { useUpdateProfile } from '@/features/settings/hooks';
 import { ProfileSchema, TProfileSchema } from '@/features/settings/validation';
 
-import { IProfileObj } from '@/services/server/getUser';
+import { IProfileObj } from '@/services/server/get-user';
 
 interface IProfileSetting {
   data?: IProfileObj | null;
