@@ -1,0 +1,4 @@
+#!/bin/sh
+# Disable concurent to run `typecheck` after ESLint in lint-staged
+cd "$(dirname "$0")/.." && npx --no lint-staged && npm run typecheck
+
